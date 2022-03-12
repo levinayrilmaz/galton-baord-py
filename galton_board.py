@@ -1,3 +1,17 @@
+##############################
+#                            #
+#                            #
+#                            #
+#          made by           #
+#       Levin Ayrilmaz       #
+#           2022             #
+#                            #
+#                            #
+##############################
+
+# https://github.com/levinayrilmaz/galton-board-py #
+
+
 import pygame
 from pygame.locals import *
 import random
