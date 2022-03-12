@@ -194,6 +194,13 @@ while spielaktiv:
                         LEFT[s]=False
                         RIGHT[s]=False
 
+                    #alternativ;
+                    #if i < 44:
+                    #   LEFT[s]=False
+                    #   RIGHT[s]=False
+                    #else:
+                    #   direction(s)
+
         
         for i in range(9):
             ausgabetext = str(anzahl_ball[i])
