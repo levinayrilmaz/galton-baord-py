@@ -194,7 +194,7 @@ while spielaktiv:
                         LEFT[s]=False
                         RIGHT[s]=False
 
-                    #alternativ;
+                    #ALTERNATIV:
                     #if i < 44:
                     #   LEFT[s]=False
                     #   RIGHT[s]=False
