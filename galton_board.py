@@ -176,30 +176,12 @@ while spielaktiv:
         for s in range(len(baelle)):
             for i in range(len(dinger)):
                 if dinger[i].colliderect(baelle[s]):
-                    if i < 3:
+                    if i < 36:
                         direction(s)
-                    elif i < 6:
-                        direction(s)
-                    elif i < 10:
-                        direction(s)
-                    elif i < 15:
-                        direction(s)
-                    elif i < 21:
-                        direction(s)
-                    elif i < 28:
-                        direction(s)
-                    elif i < 36:
-                        direction(s)
-                    elif i < 44:
+                    else:
                         LEFT[s]=False
                         RIGHT[s]=False
-
-                    #ALTERNATIV:
-                    #if i < 44:
-                    #   LEFT[s]=False
-                    #   RIGHT[s]=False
-                    #else:
-                    #   direction(s)
+                        
 
         
         for i in range(9):
